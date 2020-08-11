@@ -50,3 +50,6 @@ million fans! my point in this is how YouTube works, example - good videos about
 and everyone knows that negativity sells more! it's pretty sick how YouTube works but its true.
 
 What gets me about SerpentZA is that China made him what he is today! popular, rich, married, regular income - all whilst he sold out China!
+
+Anyway guys that brings this to an end there is so much more I want to add but I am going to save that for the actual topic it is based on rather than an
+opinion. So stay tuned, there will be more to come soon. Feel free to leave your comment below, thanks! 
