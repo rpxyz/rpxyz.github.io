@@ -15,7 +15,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 paginate: 8
 
-google_analytics: UA-144185606-1
+google_analytics: UA-172148262-1
   
 # Disqus Comments
 disqus-shortname: xyz-19
