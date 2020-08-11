@@ -1,0 +1,24 @@
+/**
+ * Inline Images
+ */
+
+.post .inline-image img {
+	max-width: 100%;
+}
+
+.post .inline-image p {
+    padding: 3px;
+    text-shadow: none;
+    margin: 0px;
+    font-style: italic;
+    font-size: 12px;
+    color: #BBBBBB;
+}
+
+.post .inline-image {
+	max-width: 100%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.52);
+    background-color: #525252;
+    padding: 1px;
+    display: inline-block
+}

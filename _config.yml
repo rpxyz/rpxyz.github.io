@@ -1,0 +1,38 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "XYZ"
+baseurl: "" # the subpath of your site, e.g. /blog
+url:	  "https://darkxess.github.io/" # the base hostname & protocol for your site
+
+description: >- # this means to ignore newlines until "baseurl:"
+  It's time to kick ass and chew bubble gum...
+
+paginate: 8
+
+google_analytics: UA-144185606-1
+  
+# Disqus Comments
+disqus-shortname: xyz-19
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+# Exclude these files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - '*.sh'

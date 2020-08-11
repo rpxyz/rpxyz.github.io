@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+		  <span class="post-meta">Posted on {{ post.date | date: date_format }}</span>
+        </h2>
+        {{ post.excerpt | strip_html | lstrip | truncatewords: 80, "" }} <a href="{{ post.url }}">» Read More</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% include prev_next.html prev_url=paginator.previous_page_path prev_text='Previous page' next_url=paginator.next_page_path next_text='Next page' %}
+</div>

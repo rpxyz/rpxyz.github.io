@@ -1,0 +1,35 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% if paginator.total_pages > 1 and paginator.page > 1 %} - Page {{ paginator.page }} of {{ paginator.total_pages }}{% endif %}</title>
+  {% seo title=false %}
+
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/site_imgs/favicon.ico?">
+
+  {% if jekyll.environment == 'production' %}
+  <meta name="msvalidate.01" content="41CB1590F95E0D73A1A2157A9D681C62" />
+  {% if site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+  {% endif %}
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#262e39"
+    },
+    "button": {
+      "background": "#0da0d6"
+    }
+  }
+});
+</script>
+</head>
