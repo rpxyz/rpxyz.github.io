@@ -8,7 +8,7 @@
 # Site settings
 title: "XYZ"
 baseurl: "" # the subpath of your site, e.g. /blog
-url:	  "https://darkxess.github.io/" # the base hostname & protocol for your site
+url:	  "https://rpxyz.github.io/" # the base hostname & protocol for your site
 
 description: >- # this means to ignore newlines until "baseurl:"
   It's time to kick ass and chew bubble gum...

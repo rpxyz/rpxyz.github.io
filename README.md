@@ -1,8 +1,8 @@
-# [XYZ](https://darkxess.github.io/)
+# [XYZ](https://rpxyz.github.io/)
 
-[![Build Status](https://travis-ci.org/MilanAryal/milanaryal.github.io.svg?branch=master)](https://darkxess.github.io/)
+[![Build Status](https://travis-ci.org/MilanAryal/milanaryal.github.io.svg?branch=master)](https://rpxyz.github.io/)
 
-The uncompiled [Jekyll](https://jekyllrb.com/) source code for my personal website ([darkxess.github.io](https://darkxess.github.io/)).
+The uncompiled [Jekyll](https://jekyllrb.com/) source code for my personal website ([rpxyz.github.io](https://rpxyz.github.io/)).
 
 ## License
 
