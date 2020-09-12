@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to XYZ"
-date:   27-07-2020
+date:   13-08-2020
 permalink: /site/welcome-to-xyz/
 tags: ['welcome']
 published: true
